@@ -75,7 +75,7 @@ defclass Witchcraft.Monad do
 
   Note that _each_ `async_chain` call awaits that step's completion. This is a
   feature not a bug, since `chain` can introduce dependencies between nested links.
-  However, this means that the async features on only really useful on larger data sets,
+  However, this means that the async features are only really useful on larger data sets,
   because otherwise we're just sparking tasks and immediaetly waiting a single application.
 
   ## Examples
