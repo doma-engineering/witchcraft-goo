@@ -3,13 +3,13 @@ defmodule Witchcraft.Mixfile do
 
   def project do
     [
-      app: :witchcraft,
+      app: :witchcraft_goo,
       aliases: aliases(),
       deps: deps(),
       preferred_cli_env: [quality: :test],
 
       # Versions
-      version: "1.0.4",
+      version: "1.21.0",
       elixir: "~> 1.9",
 
       # Docs
@@ -42,9 +42,6 @@ defmodule Witchcraft.Mixfile do
       {:exceptional, "~> 2.1"},
       {:operator, "~> 0.2"},
       {:quark, "~> 2.2"},
-      # {:type_class,  "~> 1.2"}
-      ## Get type_class from ~/github/type_class-goo/
-      # {:type_class_goo, path: "~/github/type_class-goo"},
       {:type_class_goo, "~> 1.21"}
     ]
   end
