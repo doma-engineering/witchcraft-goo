@@ -17,5 +17,5 @@
   "nimble_parsec": {:hex, :nimble_parsec, "1.2.3", "244836e6e3f1200c7f30cb56733fd808744eca61fd182f731eac4af635cc6d0b", [:mix], [], "hexpm", "c8d789e39b9131acf7b99291e93dae60ab48ef14a7ee9d58c6964f59efb570b0"},
   "operator": {:hex, :operator, "0.2.1", "4572312bbd3e63a5c237bf15c3a7670d568e3651ea744289130780006e70e5f5", [:mix], [], "hexpm", "1990cc6dc651d7fff04636eef06fc64e6bc1da83a1da890c08ca3432e17e267a"},
   "quark": {:hex, :quark, "2.3.2", "066e0d431440d077684469967f54d732443ea2a48932e0916e974633e8b39c95", [:mix], [], "hexpm", "2f6423779b02afe7e3e4af3cfecfcd94572f2051664d4d8329ffa872d24b10a8"},
-  "type_class_goo": {:hex, :type_class_goo, "1.21.1", "9bc2fa78ce3333d823075bacd7acdb6f6d891671ce1afd4041e25121733c54c6", [:mix], [{:exceptional, "~> 2.1", [hex: :exceptional, repo: "hexpm", optional: false]}], "hexpm", "e9efb8aa86ad2f80190880a5366117e5b29f55e8f446c71c3dbbd0ffea12cc1c"},
+  "type_class_goo": {:git, "https://github.com/doma-engineering/type_class-goo.git", "2df5e646b221e035ce56f438ccc65ddcd9c55bed", [branch: "main"]},
 }

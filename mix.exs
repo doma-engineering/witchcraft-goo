@@ -42,7 +42,7 @@ defmodule Witchcraft.Mixfile do
       {:exceptional, "~> 2.1"},
       {:operator, "~> 0.2"},
       {:quark, "~> 2.2"},
-      {:type_class_goo, "~> 1.21"}
+      {:type_class_goo,  github: "doma-engineering/type_class-goo", branch: "main"},
     ]
   end
 
