@@ -36,7 +36,7 @@ defmodule Witchcraft.Mixfile do
       {:benchfella, "~> 0.3", only: [:dev, :test]},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
       {:inch_ex, "~> 2.0", only: [:dev, :docs, :test], runtime: false},
-      {:dialyxir, "~> 1.1", only: :dev, runtime: false},
+      {:dialyxir, "~> 1.2", only: :dev, runtime: false},
       {:earmark, "~> 1.4", only: :dev, runtime: false},
       {:ex_doc, "~> 0.23", only: :dev, runtime: false},
       {:exceptional, "~> 2.1"},
