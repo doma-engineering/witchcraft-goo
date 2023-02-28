@@ -33,16 +33,17 @@ defmodule Witchcraft.Mixfile do
 
   defp deps do
     [
-      {:benchfella, "~> 0.3", only: [:dev, :test]},
-      {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
-      {:inch_ex, "~> 2.0", only: [:dev, :docs, :test], runtime: false},
+      {:benchfella, "~> 0.3.5", only: [:dev, :test]},
+      {:credo, "~> 1.7.0-rc.2", only: [:dev, :test], runtime: false},
+      {:inch_ex, github: "rrrene/inch_ex", only: [:dev, :docs, :test], runtime: false},
       {:dialyxir, "~> 1.2", only: :dev, runtime: false},
-      {:earmark, "~> 1.4", only: :dev, runtime: false},
-      {:ex_doc, "~> 0.23", only: :dev, runtime: false},
+      {:earmark, "~> 1.5.0-pre1", only: :dev, runtime: false},
+      {:ex_doc, "~> 0.29", only: :dev, runtime: false},
       {:exceptional, "~> 2.1"},
       {:operator, "~> 0.2"},
-      {:quark, "~> 2.2"},
-      {:type_class_goo,  github: "doma-engineering/type_class-goo", branch: "main"},
+      # Witchcraft stuff
+      {:quark_goo, github: "doma-engineering/quark-goo", branch: "main"},
+      {:type_class_goo, github: "doma-engineering/type_class-goo", branch: "main"}
     ]
   end
 
